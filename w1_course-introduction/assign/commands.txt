@@ -1,0 +1,6 @@
+## Compile
+javac -cp libs//algs4.jar RandomWord.java
+
+## Execute (In Linux)
+java -cp libs//algs4.jar:. RandomWord
+java -cp libs//algs4.jar:. RandomWord < animals.txt
