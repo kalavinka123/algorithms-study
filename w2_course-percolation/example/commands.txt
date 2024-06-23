@@ -1,0 +1,28 @@
+## Compile
+javac -cp ../../lib//algs4.jar UFClient.java
+
+## Execute (In Linux)
+java -cp ../../lib//algs4.jar:. UFClient < test.txt
+
+## Sample Output
+---
+4 3 are not connected.
+Connecting 4 3
+3 8 are not connected.
+Connecting 3 8
+6 5 are not connected.
+Connecting 6 5
+9 4 are not connected.
+Connecting 9 4
+2 1 are not connected.
+Connecting 2 1
+8 9 are already connected.
+5 0 are not connected.
+Connecting 5 0
+7 2 are not connected.
+Connecting 7 2
+6 1 are not connected.
+Connecting 6 1
+1 0 are already connected.
+6 7 are already connected.
+---
